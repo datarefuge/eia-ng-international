@@ -1,0 +1,7 @@
+# EIA Datatools
+
+[DATA TOOLS & MODELS](http://www.eia.gov/tools/models/datatools.cfm) acts as a portal to information about different kinds of energy.
+Following the [Annual Company Level Natural Gas Supply and Disposition](http://www.eia.gov/cfapps/ngqs/ngqs.cfm?f_report=RP1&CFID=3671337&CFTOKEN=adecb824a353d3ce-2B0A52F6-237D-DA68-24A4616E47171EC2) link led to a page containing a link iconified as a database, with alt text, [Download entire data to delimited text file](http://www.eia.gov/cfapps/ngqs/all_ng_data.zip). That is `all_ng_data.zip` in this directory.
+
+The portal also has a link, [International Energy Statistics](http://www.eia.gov/cfapps/ipdbproject/IEDIndex3.cfm), which redirects to [eia Beta - International Energy Statistics](http://www.eia.gov/beta/international/data/browser/#/?vs=INTL.44-1-AFRC-QBTU.A&vo=0&v=H&start=1980&end=2014), which requires form fill-out to query its data.
+I never found a systematic way to be sure to download the entire database, so I set all the settings I could find on maximum, such as the entire available time range, resulting in [International Energy Statistics with query string](http://www.eia.gov/beta/international/data/browser/#/?pa=0040000010000000000000000200000001&c=ruvvvvvfvtvnvv1urvvvvfvvvvvvfvvvou20evvvvvvvvvnvvuvo&ct=0&vs=INTL.44-1-AFG-QBTU.A&vo=0&v=H&start=1980&end=2014). Clicking the **Download** pseudo-button downloaded `International_data.csv` in this directory.
